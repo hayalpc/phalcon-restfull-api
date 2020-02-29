@@ -1,0 +1,11 @@
+You have successfully created a new database. The details are below.
+
+Username: cFaqCK79p4
+
+Database name: cFaqCK79p4
+
+Password: pvJ4ysDFgU
+
+Server: remotemysql.com
+
+Port: 3306
