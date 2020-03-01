@@ -10,7 +10,7 @@ defined('APP_PATH') || define('APP_PATH', BASE_PATH . '/app');
 return new \Phalcon\Config([
     'database' => [
         'adapter'     => 'Mysql',
-        'host'        => 'emotemysql.com',
+        'host'        => 'remotemysql.com',
         'username'    => 'cFaqCK79p4',
         'password'    => 'pvJ4ysDFgU',
         'dbname'      => 'cFaqCK79p4',
@@ -20,6 +20,7 @@ return new \Phalcon\Config([
         'appDir'         => APP_PATH . '/',
         'controllersDir' => APP_PATH . '/controllers/',
         'modelsDir'      => APP_PATH . '/models/',
+        'tasksDir'      => APP_PATH . '/tasks/',
         'migrationsDir'  => APP_PATH . '/migrations/',
         'viewsDir'       => APP_PATH . '/views/',
         'pluginsDir'     => APP_PATH . '/plugins/',

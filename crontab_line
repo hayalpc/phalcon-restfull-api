@@ -1,0 +1,1 @@
+0 9 * * * php DIR/app/cli.php weather >/dev/null 2>&1
